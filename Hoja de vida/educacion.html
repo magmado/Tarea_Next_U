@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Educación</title>
+</head>
+
+<body>
+  <!-- CABECERA-->
+  <header>
+	<div>
+		<a href="index.html"><img src="imagenes/LogoERGraphic.svg" alt="Logo" height="100px"></a>
+	</div>
+		<h1>Hoja de vida</h1>
+
+	<h2>Eddy Magandy Rosario</h2>
+	<h3><strong>Lugar de nacimiento:</strong> República Dominicana</h3>
+	<h3><strong>Fecha de nacimiento:</strong> 21 de octubre de 1976</h3>
+	<!-- Menu -->
+		<nav>
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="educacion.html">Educación</a></li>
+				<li><a href="experiencia.html">Experiencia</a></li>
+			</ul>
+		</nav>
+	</header>
+  
+  <hr>
+  	<!-- Cuerpo Inicio -->
+
+  	<section>
+	<h2>Educación</h2>
+      	<h2>Experiencia</h2>
+
+	<table border="1" style="width:60%">
+  <tr>
+    <th>Año</th>
+    <th>Institución</th> 
+    <th>Lugar</th>
+    <th>¿Culminó?</th>
+  </tr>
+  <tr>
+    <td>1996</td>
+    <td>UASD</td> 
+    <td>SantoDomingo, R.D.</td>
+    <td>2000</td>
+  </tr>
+  <tr>
+    <td>1998</td>
+    <td>Infotep</td> 
+    <td>SantoDomingo, R.D.</td>
+    <td>2001</td>
+  </tr>
+</table>
+<br>
+<form action="/action_page.php">
+    <legend><h2>Agregar Estudios</h2></legend>
+     Año
+      <select name="cars">
+        <option value="2017">2017</option>
+        <option value="2016">2016</option>
+        <option value="2015">2015</option>
+        <option value="2014">2014</option>
+        <option value="2013">2013</option>
+        <option value="2012">2012</option>
+        <option value="2011">2012</option>
+        <option value="2010">2010</option>
+        <option value="2009">2009</option>
+        <option value="2008">2008</option>
+        <option value="2007">2007</option>
+        <option value="2006">2006</option>
+      </select>
+    <br><br>
+    Institución: 
+      <input type="text" name="institucion" required><br><br>
+      Lugar: 
+      <textarea rows="10" cols="25"></textarea><br><br>
+      ¿Culminó?
+      <input type="radio" name="si" value="Culminó"> Si
+      <input type="radio" name="Estudiando" value="No Culmino">No <br><br>
+      <input type="submit" value="Enviar" formmethod="post" formaction="/action_page_post.php">  
+  </form>
+
+        
+	</section>
+
+
+	<!-- Pie -->
+
+	<footer>
+      <p>(c) Copyright 2017. <a href="index.html"><strong>ER Graphic Designer</strong></a></p>
+        <ul>
+
+		    <li>Correo electrónico: <a href="mailto:magmado@gmail.com?Subject=Hello%20again" target="_top">magmado@gmail.com</a></li>
+		    <li>Telefono: 1.809.995.3211</li>
+        <li>Dirección: Calle 3. # 25, Santo Domingo Este.</li>
+        </ul>
+    </footer>
+</body>
+</html>
